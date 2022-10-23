@@ -16,6 +16,10 @@ public class Main{
 
         int[] arr1 = {0,0,1,1,1,2,2,3,3,4};
         System.out.println(r.removeDup(arr1));
+
+        MajorityElement x = new MajorityElement();
+        int[] arr2 = { 1, 1, 2, 1, 3, 5, 1};
+        x.finMajority(arr2, 7);
        
     }
 }
